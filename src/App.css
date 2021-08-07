@@ -1,0 +1,83 @@
+/* <span style="
+    transform: translate(130px, -436px);
+    width: 50;
+"><img src="./img/v8.png" style="
+    opacity: ;
+    opacity: 0.7;
+    width: 63%;
+"></span> */
+
+span > img {
+  opacity: 0.7;
+  width: 63%;
+}
+
+span {
+  transform: translate(49px, -436px);
+  width: 50;
+  background-color: transparent;
+  border: none;
+}
+span :focus {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.model_glass :nth-child(2) {
+  transform: translate(-492px, -326px);
+  background-color: transparent;
+  width: 36%;
+  opacity: 0.6;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
+button:focus {
+  outline: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  max-width: 100%;
+}
+
+button img {
+  max-width: 100%;
+}
+
+body {
+  background-image: url("./Component_Glasses/Assets/background.jpg");
+  background-repeat: no-repeat;
+  background-blend-mode: luminosity;
+  padding-bottom: 171px;
+  background-size: cover;
+}
+
+.glass{
+  background-color:#e2dcdc;
+  padding: 4px 36px;
+  padding-top: 40px;
+  transform: translateY(60px);
+}
+
+.col-2{
+  margin-bottom: 40px;
+}
+
+.model1{
+  transform: translate(97px, 30px);
+}
+
+.model >img{
+  width: 65%;
+}
+
+h3{
+  text-align: center;
+  margin-top: 20px;
+  background-color: rgba(0,0,0,0.4);
+  padding: 31px;
+  transform: translateY(-20px) !important;
+  color: #ffff;
+}
